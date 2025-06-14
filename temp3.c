@@ -12,5 +12,17 @@ int main()
 
    printf("After Swapping\nx = %d\ny = %d\n", x, y);
 
+   x=x+y;
+   y=x-y;
+   x=x-y;
+   printf("After Swapping\nx = %d\ny = %d\n", x, y);
+
+
+   x=x*y;
+   y=x/y;
+   x=x/y;
+   printf("After Swapping\nx = %d\ny = %d\n", x, y);
+
+
    return 0;
 }
